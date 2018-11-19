@@ -9,5 +9,6 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello_world():
-    return 'Hello, Brave New World!'
+@app.route('/index')
+def index():
+    return 'Hello, Libra!'
