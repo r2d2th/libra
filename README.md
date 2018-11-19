@@ -1,2 +1,2 @@
 # libra
-Sunday libra point
+Sunday libra ever
