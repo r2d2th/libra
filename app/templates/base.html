@@ -5,12 +5,13 @@
         {% else %}
             <title>Welcome to Libra!</title>
         {% endif %}   
-        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">    
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+        <link rel="stylesheet"    href="{{ url_for('static', filename='main.css') }}">
     </head>
     <body>
-        <a href="{{ url_for('city') }}">City</a>
         {% block content %}
         {% endblock %}
 
+        <script src="{{ url_for('static', filename='main.js') }}"></script>
     </body>
 </html>
